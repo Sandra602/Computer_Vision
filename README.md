@@ -11,17 +11,26 @@ Image processing is a way to convert an image to a digital aspect and perform ce
 
 ### Programming Languages and Libraries :
 Python Programming Language is used. The major libraries used include :
+
   1.OpenCV     : Image Processing Libraries
+  
   2.matplotlib   : Visualization
+  
   3.numpy        : Mathematical Operations
+  
   4.sys          : For manipulating run time environment in Python
 
 ### Methodology Used:
   1.Loading the Image
+  
   2.Converting to grayscale.
+  
   3.Noise Reduction using Blurring
+  
   4.Applying Hough transform on the blurred image to detect the circle. It returns an array containing the centers and radii of all the circles that are detected.
+  
   5.Identifying whether the given pixel point, say, (50,50), lies inside or outside the circle.
+  
   6.Video Classifier Using Deep Learning
 
 # Video Classifier
@@ -29,20 +38,32 @@ As the world is moving towards automation, researchers are focussing on capturin
 
 ### Programming Languages and Libraries :
 Python Programming Language is used. The major libraries used include :
-  1.Tensorflow         
+  1.Tensorflow 
+  
   2.OpenCV
+  
   3.Matplotlib
+  
   4.Pandas
+  
   5.numpy
+  
   6.Skimage
   
 ### Methodology
   1.Importing the Required Libraries
+  
   2.Loading Imagenet weights Using RESNET architecture.
+  
   3.Capturing the video from the given path
+  
   4.Finding the frames of the video
+  
   5.Iterating through each frame
+  
   6.Preparing the each frame for the Resnet model
+  
   7.Getting the predicted probabilities for each class
+  
   8.Ploting the Image with the Predicted Probabilities
 
